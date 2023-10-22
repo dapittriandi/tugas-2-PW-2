@@ -6,6 +6,7 @@
     <title>Menampilkan  bilangan Genap, Ganjil, dan Prima.</title>
 </head>
 <body>
+<p>Pengulangan untuk mencari kategori bilangan : </p>
 <?php
 
 for ($i = 1; $i < 20; $i++) {
@@ -17,23 +18,19 @@ for ($i = 1; $i < 20; $i++) {
                 break;
             }
         }?>
-     <li>   
-    <?php 
-    if ($i % 2 === 0) {
-        echo "Angka $i adalah bilangan Genap ";
-    } else {
-        echo "Angka $i adalah bilangan Ganjil ";
-    }
+    <li>   
+        <?php 
+        if ($i % 2 === 0) {
+            echo "Angka $i adalah bilangan Genap ";
+        } else {
+            echo "Angka $i adalah bilangan Ganjil ";
+        }
 
-    if ($prima && $i > 1) {
-        echo "dan sekaligus Prima";
-    }?>
-    
+        if ($prima && $i > 1) {
+            echo "dan sekaligus bilangan Prima";
+        }?>
     </li>
-<?php
-    echo "<br>";
- } ?>
-
+<?php } ?>
 
 </body>
 </html>
