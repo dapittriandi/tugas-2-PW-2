@@ -16,8 +16,9 @@ for ($i = 1; $i < 20; $i++) {
                 $prima = false;
                 break;
             }
-        }
-
+        }?>
+     <li>   
+    <?php 
     if ($i % 2 === 0) {
         echo "Angka $i adalah bilangan Genap ";
     } else {
@@ -26,12 +27,13 @@ for ($i = 1; $i < 20; $i++) {
 
     if ($prima && $i > 1) {
         echo "dan sekaligus Prima";
-    }
-
+    }?>
+    
+    </li>
+<?php
     echo "<br>";
-}
+ } ?>
 
-?>
 
 </body>
 </html>
