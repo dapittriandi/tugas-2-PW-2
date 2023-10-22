@@ -1,6 +1,5 @@
 #tugas pertemuan ke 2
-
-
+NAMA : Dapit Triandi
 
 
 
